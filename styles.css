@@ -1,149 +1,160 @@
-/* BIGGER. BOLDER. MORE IMPACT. */
+/* MAXIMUM INTENSITY. DOMINATE THE GAME. */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Anton&family=Bebas+Neue&display=swap');
 
 /* General Styles */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Anton', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1A1A2E, #0F3460);
+    background: radial-gradient(circle, #000000, #1A1A2E, #0F3460);
     color: #fff;
     text-align: center;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 40px;
-}
-
-/* Hero Section */
-.hero {
-    background: linear-gradient(135deg, #FF512F, #F09819);
-    padding: 120px 20px;
-    border-radius: 15px;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+/* Hero Section - UNAPOLOGETIC POWER */
+.hero {
+    background: linear-gradient(135deg, #FF0000, #FFD700);
+    padding: 150px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 12px 30px rgba(255, 0, 0, 0.6);
+    text-transform: uppercase;
+    animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.02);
+    }
+}
+
 .hero h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+    font-size: 5rem;
+    margin-bottom: 25px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 900;
+    letter-spacing: 3px;
 }
 
 .hero p {
-    font-size: 1.7rem;
-    margin-bottom: 30px;
-    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    font-weight: 700;
 }
 
 .cta-button {
     display: inline-block;
-    background: #FFC107;
-    color: #222;
-    padding: 20px 40px;
+    background: #000;
+    color: #FFD700;
+    padding: 25px 50px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 2rem;
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .cta-button:hover {
-    background: #FF9800;
-    transform: scale(1.08);
+    background: #FFD700;
+    color: #000;
+    transform: scale(1.1);
 }
 
 /* Section Styling */
 section {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 60px;
-    margin-top: 50px;
-    border-radius: 12px;
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 80px;
+    margin-top: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
 }
 
 h2 {
-    font-size: 3rem;
-    margin-bottom: 30px;
-    color: #FFC107;
-    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+    color: #FFD700;
+    font-weight: 900;
 }
 
 p {
-    font-size: 1.4rem;
-    font-weight: 300;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .benefits {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
 }
 
 .benefit {
-    background: rgba(255, 255, 255, 0.3);
-    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
     width: 30%;
-    border-radius: 10px;
+    border-radius: 12px;
     text-align: center;
-    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 8px 18px rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease;
 }
 
 .benefit:hover {
-    transform: translateY(-7px);
+    transform: translateY(-10px) scale(1.05);
 }
 
 .benefit h3 {
-    color: #FFC107;
-    font-size: 1.8rem;
+    color: #FFD700;
+    font-size: 2rem;
 }
 
 /* Testimonials */
 .testimonial {
-    background: rgba(255, 255, 255, 0.3);
-    padding: 35px;
-    margin: 25px auto;
-    border-radius: 12px;
-    max-width: 800px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    margin: 30px auto;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.3);
     font-style: italic;
     transition: transform 0.3s ease;
 }
 
 .testimonial:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .testimonial p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 /* Call to Action */
 .cta {
-    background: linear-gradient(135deg, #FFC107, #FF5722);
-    padding: 70px;
-    border-radius: 15px;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
-    color: #222;
+    background: linear-gradient(135deg, #FFD700, #FF0000);
+    padding: 90px;
+    border-radius: 20px;
+    box-shadow: 0px 12px 30px rgba(255, 0, 0, 0.5);
+    color: #000;
     text-transform: uppercase;
 }
 
 .cta h2 {
-    color: #222;
-    font-size: 3rem;
-    font-weight: 800;
+    color: #000;
+    font-size: 3.5rem;
+    font-weight: 900;
 }
 
 iframe {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
 }
