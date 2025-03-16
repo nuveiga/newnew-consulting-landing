@@ -1,37 +1,41 @@
+/* BIGGER. BOLDER. MORE IMPACT. */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Montserrat:wght@300;600&display=swap');
+
 /* General Styles */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1A1A2E, #16213E);
+    background: linear-gradient(135deg, #1A1A2E, #0F3460);
     color: #fff;
     text-align: center;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 40px;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #FF512F, #DD2476);
-    padding: 80px 20px;
+    background: linear-gradient(135deg, #FF512F, #F09819);
+    padding: 120px 20px;
     border-radius: 15px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
 }
 
 .hero h1 {
-    font-size: 3.5rem;
-    margin-bottom: 15px;
+    font-size: 4rem;
+    margin-bottom: 20px;
     color: #fff;
-    text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 30px;
     font-weight: 300;
 }
@@ -40,38 +44,40 @@ body {
     display: inline-block;
     background: #FFC107;
     color: #222;
-    padding: 15px 30px;
+    padding: 20px 40px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .cta-button:hover {
     background: #FF9800;
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 /* Section Styling */
 section {
-    background: rgba(255, 255, 255, 0.15);
-    padding: 50px;
-    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 60px;
+    margin-top: 50px;
     border-radius: 12px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
+    text-transform: uppercase;
 }
 
 h2 {
-    font-size: 2.5rem;
-    margin-bottom: 25px;
+    font-size: 3rem;
+    margin-bottom: 30px;
     color: #FFC107;
     font-weight: 700;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 300;
 }
 
@@ -79,60 +85,61 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
 }
 
 .benefit {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px;
     width: 30%;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
 
 .benefit:hover {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
 }
 
 .benefit h3 {
     color: #FFC107;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /* Testimonials */
 .testimonial {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 30px;
-    margin: 20px auto;
-    border-radius: 10px;
-    max-width: 750px;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.3);
+    padding: 35px;
+    margin: 25px auto;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     font-style: italic;
     transition: transform 0.3s ease;
 }
 
 .testimonial:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .testimonial p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 /* Call to Action */
 .cta {
     background: linear-gradient(135deg, #FFC107, #FF5722);
-    padding: 60px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 70px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
     color: #222;
+    text-transform: uppercase;
 }
 
 .cta h2 {
     color: #222;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
 }
 
